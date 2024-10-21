@@ -1,0 +1,31 @@
+
+
+
+
+.navbar-brand {color: palevioletred;
+padding: 10px;
+}
+
+
+.hero {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .btn-primary {color: rgb(226, 125, 43);
+background-color: brown;}  
+ 
+
+
+
+
+#local-link-about {color: rgb(212, 52, 78);
+text-decoration-line: underline;}
+
+
+#local-link-contact{color:rgb(212, 52, 78);
+text-decoration-line: underline;}
+
+#beauty{color: rgb(124, 8, 47);
+}
