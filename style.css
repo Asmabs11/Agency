@@ -1,0 +1,51 @@
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position:absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  
+  #navbarNav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cta-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: darkorange;
+  }
+  .content h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .content h2 {
+    color: lightgray;
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+ 

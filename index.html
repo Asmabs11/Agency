@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Agency</title>
+    <link rel ="Icons" href="airplane.jpg" type="image" >
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="voyage.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+               
+              </a>
+            <div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Feel Free Agency</div>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#local-link-destination">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#local-link-explore">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#local-link-contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="hero" style="background-image: url('t.jpg');">
+        
+        <div class="overlay">
+          <div class="content">
+            <h1>Discover Your Next Adventure</h1>
+            <h2>Explore stunning landscapes and vibrant cultures</h2>
+            <a href="#journey" class="cta-button">Start Your Journey</a>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section py-5">
+        <div class="container">
+          <h2 class="text-center mb-4" id="local-link-destination">Destinations</h2>
+          <div class="row g-4">
+            
+            
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="bali.jpg" class="card-img-top" alt=" 1">
+                <div class="card-body">
+                  <h5 class="card-title">Bali</h5>
+                  <p class="card-text">The Island of the Gods, better known as Bali, is an Indonesian island located between Java and Lombok. Separated from the latter two by the Bali Strait to the west and the Lombok Strait to the east, its total area is 5,637 km2. 
+                    Bali is the most popular and well-known tourist destination in Indonesia.</p>
+                    <button type="button" class="btn btn-info">Learn More</button>
+                 
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="g.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Greece</h5>
+                  <p class="card-text">The cube-shaped white houses of its two main towns, Fira and Oia, perch on cliffs overlooking an underwater caldera (crater). They overlook the sea,
+                     small islands to the west as well as beaches made up of black, red and white lava pebbles</p>
+                     <button type="button" class="btn btn-info">Learn More</button>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="s.jpg" class="card-img-top" alt=" 3">
+                <div class="card-body">
+                  <h5 class="card-title">Korea</h5>
+                  <p class="card-text">It is known for its rolling, green countryside dotted with cherry trees and centuries-old Buddhist temples, as well as its coastal fishing villages,
+                     subtropical islands and high-tech cities like Seoul, its capital.</p>
+                     <button type="button" class="btn btn-info">Learn more</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+    <div class="container my-5">
+      <h2 class="text-center mb-4 "id="local-link-explore" >Explore Our Tour Packages</h2>
+      
+      <div class="accordion" id="tourPackagesAccordion">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingBali">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBali" aria-expanded="true" aria-controls="collapseBali">
+              Bali - 7 Days Exotic Escape
+            </button>
+            <a href="https://www.voyageindonesie.com/infos-pratiques/indonesie-clin-doeil/geographie/description-bali-perle-indonesie">B</a>
+          </h2>
+          <div id="collapseBali" class="accordion-collapse collapse show" aria-labelledby="headingBali" data-bs-parent="#tourPackagesAccordion">
+            <div class="accordion-body">
+              Discover the serene beauty of Bali with this 7-day package that includes visits to the famous rice terraces, pristine beaches, and cultural temples. You'll also experience a traditional Balinese massage and a sunset dinner on the beach.
+            </div>
+          </div>
+        </div>
+    
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingGreece">
+            
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGreece" aria-expanded="false" aria-controls="collapseGreece">
+              Greece - 10 Days Historical Adventure
+            </button>
+            <a href="https://www.lefigaro.fr/voyages/dossier/grece">G</a>
+          </h2>
+          <div id="collapseGreece" class="accordion-collapse collapse" aria-labelledby="headingGreece" data-bs-parent="#tourPackagesAccordion">
+            <div class="accordion-body">
+              Explore the ancient ruins of Athens, relax on the stunning islands of Santorini and Mykonos, and experience authentic Greek culture with our 10-day package. This tour includes guided tours, wine tastings, and sunset cruises.
+            </div>
+          </div>
+        </div>
+    
+       
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingKorea">
+            
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKorea" aria-expanded="false" aria-controls="collapseKorea">
+              South Korea - 8 Days Cultural Discovery
+            </button>
+            <a href="https://www.britannica.com/place/South-Korea">K</a>
+            
+          </h2>
+          <div id="collapseKorea" class="accordion-collapse collapse" aria-labelledby="headingKorea" data-bs-parent="#tourPackagesAccordion">
+            <div class="accordion-body">
+              Immerse yourself in South Korea's unique blend of tradition and modernity with this 8-day tour. You'll visit historic palaces, vibrant markets, and scenic national parks, along with a trip to the Demilitarized Zone (DMZ).
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+    
+
+
+<div class="container my-5">
+  <h2 class="text-center mb-4" id="local-link-contact">Get in Touch</h2>
+  
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form>
+        
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+
+       
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+
+        
+        <div class="mb-3">
+          <label for="subject" class="form-label">Destination of Interest</label>
+          <input type="text" class="form-control" id="subject" placeholder="Destination" required>
+        </div>
+
+        
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" required></textarea>
+        </div>
+
+        
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary btn-lg">Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="bg-dark text-light py-4">
+<div class="container">
+  <div class="row align-items-center">
+    
+    <div class="col-md-6">
+      <p class="mb-0">&copy; 2024 Feel Free Agency. All Rights Reserved.</p>
+      <p><a href="https://www.facebook.com/">facebook</a></p>
+    </div>
+    
+    
+    <div class="col-md-6 text-md-end">
+        </div>
+        
+     
+     
+      
+    </div>
+  </div>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+    
+     
